@@ -1,0 +1,386 @@
+* {
+ padding: 0px;
+ margin: 0px;
+ border: border-box;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.header {
+ z-index: 6;
+ height:80px;
+ width:100%;
+ position: fixed;
+ top: 0;
+ left: 0;
+ padding: 0 104px 0 259px;
+ background-color: #750014;
+ padding: 0 100 0 259;
+ display: flex;
+ align-items: center;
+}
+
+#nav_logo {
+ width:50px;
+ height:20px;
+ margin: 0 0 0 30px;
+ top: 0;
+ left: 0;
+ position: fixed;
+} 
+
+.navbar {
+ height:80px;
+ color: white;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ padding: 0 10px 0 100px;
+ margin-left: 100px;
+ font-weight: 500;
+}
+
+.navbar a {
+ text-decoration: none;
+ color: white;
+ padding: 0 10px;
+ flex: 1;
+ text-align: center;
+}
+
+.navbar a:hover {
+ text-decoration: underline;
+ text-decoration-color: red;
+ text-decoration-style: solid;
+ text-decoration-thickness: 2px;
+}
+
+#search img {
+ position:fixed;
+ top: 4px;
+ padding: 0 0 0 213px;
+}
+
+#top-image-title {
+ font-weight: 700;
+ background-color: #D4D4D4;
+ margin-top: 75px;
+ margin-left: 500px;
+ padding-top: 30px;
+ padding-left: 40px;
+ height: 50px;
+}
+
+#top-image-title a {
+ text-decoration: underline;
+ text-decoration-color: red;
+ color: black;
+}
+
+#top-image-title a:hover {
+ color: red;
+}
+
+#hero-image {
+ margin-top: 20px;
+ margin-left: 590px;
+ padding-right: 50px;
+}
+
+#text-below-hero {
+ padding-left: 650px;
+ padding-right: 75px;
+ font-weight: 650;
+ font-size: 27px;
+}
+
+#text-below-hero a {
+ color: black;
+ text-decoration: underline;
+ text-decoration-color: red ;
+}
+
+#text-below-hero a:hover {
+ color: red;
+}
+
+#hero-links {
+ padding-top: 15px;
+ padding-left: 650px;
+ padding-right: 75px;
+ font-weight: 450;
+ font-size: 18px;
+}
+
+#iconpara a {
+ color: red;
+}
+
+.full-story a {
+ color:black;
+ text-decoration: underline;
+ text-decoration-color: red ;
+}
+
+.full-story a:hover {
+ color: red;
+}
+
+#more-from-community {
+ padding-left: 900px;
+ padding-top: 40px;
+ font-weight: 650;
+ font-size: 18px;
+}
+
+#pic1 {
+ padding-left: 550px;
+}
+
+#pic1title {
+ padding-left: 550px;
+ font-weight: 650;
+ padding-bottom: 0px;
+}
+
+#pic1description1 {
+ margin-top: -50px;
+ padding-top: 0px;
+ padding-left: 570px;
+ font-weight: 400;
+}
+
+#pic1description1 a {
+ color: black;
+ text-decoration: none;
+}
+
+#pic1description1 a:hover {
+ text-decoration: underline;
+ text-decoration-color: black ;
+}
+
+#pic2 {
+ padding-left: 550px;
+}
+
+#pic2title {
+ padding-left: 550px;
+ font-weight: 650;
+ padding-bottom: 0px;
+}
+
+#pic2description1 {
+ margin-top: -50px;
+ padding-top: 0px;
+ padding-left: 570px;
+ font-weight: 400;
+}
+
+#pic2description1 a {
+ color: black;
+ text-decoration: none;
+}
+
+#pic2description1 a:hover {
+ text-decoration: underline;
+ text-decoration-color: black ;
+}
+
+#pic3 {
+ padding-left: 550px;
+}
+
+#pic3title {
+ padding-left: 550px;
+ font-weight: 650;
+ padding-bottom: 0px;
+}
+
+#pic3description1 {
+ margin-top: -50px;
+ padding-top: 0px;
+ padding-left: 570px;
+ font-weight: 400;
+}
+
+#pic3description1 a {
+ color: black;
+ text-decoration: none;
+}
+
+#pic3description1 a:hover {
+ text-decoration: underline;
+ text-decoration-color: black ;
+}
+
+#footer {
+ padding-top: 15px;
+ background-color: #750014;
+ padding-left: 570px;
+}
+
+#footertext {
+ color: white;
+ font-weight: 500;
+}
+
+#footertext a {
+ color: white;
+ text-decoration: underline;
+ text-decoration-color: red ;
+}
+
+#footertext a:hover {
+ color: red;
+}
+
+#footerbutton button {
+ color:white;
+ margin-left: 820px ;
+ margin-top: 10px;
+ background-color: #750014;
+ border: 2px solid red;
+ padding: 7px 17px 7px 17px;
+ font-weight: 700;
+ cursor: pointer;
+}
+
+#footerbutton button:hover {
+ background-color: red;
+}
+
+.leftsection {
+ height: 750px;
+ width: 500px;
+ position: fixed;
+ background-color: rgb(239, 237, 235);
+ z-index: 5;
+ top: 0;
+ left: 0;
+}
+
+#searchtoptext{
+ margin-top: 125px;
+ margin-left: 40px;
+ font-size: large;
+ font-weight: 500;
+}
+
+.searchbox {
+ margin-left: 40px;
+ margin-top: 30px;
+}
+
+.searchinput {
+ padding: 25px 150px 25px 65px;
+ font-size: 17px;
+ font-weight: 600;
+ border: none;
+ box-shadow: 5px 5px 5px 5px rgba(126, 116, 116, 0.1) ;
+}
+
+#searchicon {
+ position: absolute;
+ margin-top: 15px;
+ margin-left: 10px;
+ height: 70px;
+ width: 70px;
+}
+
+#undersearch {
+ margin-left: 30px;
+}
+
+#undersearch bold {
+ font-weight: 700;
+}
+
+.dash {
+ color: red;
+ font-weight: 1000;
+}
+
+#undersearch a {
+ text-decoration: none;
+ color: black;
+}
+
+#undersearch a:hover {
+ text-decoration: underline;
+ text-decoration-color: black;
+}
+
+#arrow a {
+ color: rgb(6, 206, 23);
+}
+
+#arrow a:hover {
+ color: #750014;
+ transition-duration: 0.4s;
+ transition-property: inherit;
+ transition-timing-function:ease-in-out ;
+}
+
+#sidebarbutton a {
+ color: red;
+ text-decoration: none;
+ font-weight: 900;
+}
+
+#sidebarbutton button {
+ padding: 2px 5px 5px 0px;
+ margin-left: 40px;
+ border: 1px solid red;
+ cursor: pointer;
+}
+
+#sidebarbutton button:hover {
+ background-color: red;
+ color: white;
+}
+
+#sidebarbutton a:hover {
+ color: white;
+}
+
+#lastside1 a {
+ text-decoration: none;
+ color: black;
+ left: 10px;
+ margin-left: 40px;
+}
+
+#lastside1 a:hover {
+ text-decoration: underline;
+ text-decoration-color: black;
+}
+
+#lastside2 {
+ margin-top: -45px;
+ margin-left: 25px;
+}
+
+#lastside2 a {
+ text-decoration: underline;
+ text-decoration-color: red;
+ color: black;
+}
+
+#lastside2 a:hover {
+ text-decoration: underline;
+ text-decoration-color: red;
+}
+
+#lastside3 {
+ margin-top: -130px;
+ margin-left: 330px;
+}
+
+#lastside3 a {
+ text-decoration: none;
+ color:red;
+}
+
+#lastside3 a:hover {
+ color:black
+}
