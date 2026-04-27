@@ -20,10 +20,3 @@ The goal was to closely match the structure, styling, and user experience of the
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3  
-
----
-
-## ⚙️ Installation & Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Saf0123/University-Website.git
